@@ -144,7 +144,7 @@ public:
 int main()
 {
 
-    clsEmployee Employee1(10, "Islam", "Ahmed", "My@gmail.com", "01092058985" , "Amin and Arabi" , 8000 , "Information System");
+    clsEmployee Employee1(10, "Islam", "Ahmed", "My@gmail.com", "01092058985" , "CEO" , 8000 , "Information System");
     Employee1.Print();
 
     Employee1.SendEmail("Hi", "How are you?");
